@@ -9,6 +9,8 @@ int main()
 		for (auto it = 0; it < braces.size(); it += 2){
 			if (braces[it] == arg1 && arg2 == braces[it + 1]){
 					std::cout << "ok" << std::endl;
+					std::cout << "for exit program" 
+						<< " enter CTRL +c" << std::endl;
 					break;
 			}
 			if(it >= braces.size() - 2){
